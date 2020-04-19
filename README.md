@@ -1,2 +1,1 @@
-learnign Java Script
-Some JAva Script exercises
+Vanillla JavaScript Exercises
