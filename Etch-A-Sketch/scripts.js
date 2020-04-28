@@ -50,7 +50,6 @@ function changeColor(e){
         let darken = Number(e.target.style.opacity);
         e.target.style.opacity = darken += 0.1;
         e.target.style.backgroundColor = '#000';
-        e.target.style.transition = 'background-color 0.25s';
     }
 }
 function changeColorScheme(e){
