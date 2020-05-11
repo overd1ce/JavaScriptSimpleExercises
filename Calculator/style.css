@@ -1,9 +1,11 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: 'Trebuchet MS';
+    font-family: sans-serif;
     font-weight: normal;
 }
-
+button::-moz-focus-inner {
+    border: 0;
+  }
 body {
     padding: 0;
     margin: 0;
@@ -24,17 +26,22 @@ body {
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
-    background-color: #eee;
+    background-color: rgb(228, 241, 254, 1);
 }
 
 .calculator-grid > button:hover {
-    background-color: #bfbfbf;
+    background-color: rgb(228, 241, 254, .75);
 }
 
 .double {
     grid-column: span 2;
 }
-
+button.equal {
+    background-color: #f1828d;
+}
+button.equal:hover {
+    background-color: #e26a6a;
+}
 .output {
     grid-column: 1 / -1;
     background-color: #34495e;
