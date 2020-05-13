@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro App</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+</head>
+<body onload="startTransform()">
+    <header></header>
+    <main>
+        <div id="clock">
+            <div class="clock-inner">
+                <p class="main-timer"><span id="minutes">25</span>:<span id="seconds">00</span></p>
+                <p class="task-timer"><span id="pomodoro-task">work</span>&nbsp;&nbsp;-&nbsp;&nbsp;<span id="pomodoro-counter">1</span>/4</p>
+            </div>
+        </div>
+        <div id="play-button">
+            <a class="play-btn" href="#" onclick="startTransform(); startTimer()"></a>
+        </div>
+        <div id="menu">
+            <a class="icons" href="#"><i class="far fa-pause-circle icon-2x"></i></a>
+            <a class="icons" href="#" onclick="resetAll()"><i class="far fa-stop-circle"></i></a>
+        </div>
+    </main>
+    <footer><p>pomodoro timer<span class="creator">&nbsp;&nbsp;&nbsp;by OVERDICE</span></p></footer>
+</body>
+</html>
