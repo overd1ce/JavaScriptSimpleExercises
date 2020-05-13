@@ -4,3 +4,5 @@ ETCH-A-SCHETCH EXERCISE
 <br>Set up a hover effect so that the grid divs change color when hover.
 <br>Button on top to clear the grid, and sending a pupup asking for how many squares per side to make the new grid. The new grid has to be generated in the same total space as before.
 <br>Add buttons to have different pens.
+
+[Live preview](https://overd1ce.github.io/JavaScriptSimpleExercises/Etch-A-Sketch/index.html)
